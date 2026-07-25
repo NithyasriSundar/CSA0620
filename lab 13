@@ -1,0 +1,6 @@
+a = [-2, -3, 4, -1, -2, 1, 5, -3]
+m = c = a[0]
+for x in a[1:]:
+    c = max(x, c + x)
+    m = max(m, c)
+print(m)
